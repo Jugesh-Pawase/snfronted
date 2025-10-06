@@ -1,5 +1,5 @@
 {
-  "name": "studyotion",
+  "name": "studynotion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,14 +31,14 @@
     "video-react": "^0.16.0",
     "web-vitals": "^4.2.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": "cd server && npm run dev",
-    "dev": "concurrently -n \"client,server\" -c \"blue,yellow\" \"npm start\" \"npm run server\""
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "server": "cd server && npm install && npm run dev",
+  "dev": "concurrently --kill-others-on-fail -n \"client,server\" -c \"blue,yellow\" \"npm start\" \"npm run server\""
+},
   "eslintConfig": {
     "extends": [
       "react-app",
