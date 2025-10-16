@@ -60,7 +60,7 @@ function Navbar() {
                                                 <IoIosArrowDown />
 
                                                 <div className='absolute invisible left-[50%] right-[50%] top-[50%] z-[1000] flex flex-col rounded-md bg-richblack-5 p-4 w-[200px] lg:w-[300px]
-                                                translate-x-[-50%] translate-y-[80%]
+                                                translate-x-[-50%] translate-y-[30%]
                                                 text-richblack-900 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100'>
 
                                                     <div className='absolute left-[50%] top-0 -z-10 translate-x-[80%] translate-y-[-45%] h-6 w-6 rotate-45 rounded bg-richblack-5 '>
