@@ -25,7 +25,7 @@ function EnrolledCourses() {
 
     return (
         <div>
-            <div className="text-3xl text-richblack-50 uppercase tracking-wider lg:text-left text-center">Enrolled Course</div>
+            <div className="text-3xl text-richblack-50 uppercase tracking-wider lg:text-left text-center">Enrolled Courses</div>
             {!enrolledCourses ? (
                 <div className="grid min-h-[calc(100vh-3.5rem)] place-items-center">
                     <div className="spinner"></div>
@@ -61,7 +61,7 @@ function EnrolledCourses() {
                                     <img
                                         src={course.thumbnail}
                                         alt="course_img"
-                                        className="h-14 w-14 rounded-lg object-cover"
+                                        className="h-14 w-14 rounded-lg object-contain bg-black"
                                     />
                                     <div className="flex max-w-xs flex-col gap-2">
                                         <p className="font-semibold uppercase tracking-wider">
